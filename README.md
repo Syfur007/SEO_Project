@@ -23,17 +23,17 @@ A 5-page static site (Home, About, Products & Services, Contact, 404) built with
 
 ## 2. IMPORTANT — update the placeholder domain
 
-Every page uses `https://atlanticattire.github.io/` as a **placeholder** for canonical URLs, Open Graph tags, and structured data (JSON-LD). Search engines and social previews need the *real* URL, so before (or right after) you publish, replace the placeholder everywhere with your actual GitHub Pages URL (or custom domain, if you add one).
+Every page uses `https://syfur007.github.io/SEO_Project/` as a **placeholder** for canonical URLs, Open Graph tags, and structured data (JSON-LD). Search engines and social previews need the *real* URL, so before (or right after) you publish, replace the placeholder everywhere with your actual GitHub Pages URL (or custom domain, if you add one).
 
 **Find every file that needs updating:**
 ```bash
-grep -rl "atlanticattire.github.io" .
+grep -rl "syfur007.github.io/SEO_Project" .
 ```
 
 **Replace in one shot** (macOS/Linux — adjust the new URL to match your real one, no trailing slash):
 ```bash
 NEW_URL="https://your-username.github.io/your-repo-name"
-grep -rl "https://atlanticattire.github.io" . | xargs sed -i.bak "s|https://atlanticattire.github.io|$NEW_URL|g"
+grep -rl "https://syfur007.github.io/SEO_Project" . | xargs sed -i.bak "s|https://syfur007.github.io/SEO_Project|$NEW_URL|g"
 find . -name "*.bak" -delete
 ```
 On Windows (PowerShell):

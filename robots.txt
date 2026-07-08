@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://atlanticattire.github.io/sitemap.xml
+Sitemap: https://syfur007.github.io/SEO_Project/sitemap.xml
